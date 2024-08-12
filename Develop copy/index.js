@@ -8,7 +8,7 @@ import generateMarkdown from './utils/generateMarkdown.js'; // this will import 
 const questions = [
     {
         type: 'input',
-        name: 'GitHubUserName',
+        name: 'userName',
         message: 'What is your Github username?'
     },
     {
@@ -27,7 +27,7 @@ const questions = [
         message: 'Please write a short description of your project.'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Please select a license for this project.',
         choices: ['MIT', 'APACE.20', 'GPL 3.0', 'BSD', 'NONE']
@@ -41,6 +41,7 @@ const questions = [
         default: colors.gray('npm i') // this will print the default command to install dependencies which is npm i
 
     },
+        
     {
         type: 'input',
         name: 'usage',
@@ -48,24 +49,19 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contribution',
+        name: 'contributing',
         message: 'What does the user need to know about contributing to the repo?'
-    }
+    },
 
-
+    {
+        type: 'input',
+        name: 'test',
+        message: 'What command should be run to run tests?',
+        },
 ];
 
 
 
-
-// TODO: Create a function to initialize app
-function init()  { // what this will do is initialize the app
-inquirer.prompt(questions).then((response) => { // await will wait for the user to respond to the questions and then the responses will be stored in the response variable
-        console.log('Creating a professional README.md file') // this will let the user know that the README.md file is being created
-        writeToFile(response); // this will write the user's responses to the README.md file
-    })
-} 
-init(); // this will call the function to initialize the app
 
 
 // TODO: Create a function to write README file
@@ -75,3 +71,14 @@ function writeToFile(data) { // this function will write the README.md file
         err ? console.log(err) : console.log(' Your README.md file has been created')
     
 })};
+
+
+// TODO: Create a function to initialize app
+function init()  { // what this will do is initialize the app
+    inquirer.prompt(questions).then((response) => { // await will wait for the user to respond to the questions and then the responses will be stored in the response variable
+            console.log('Creating a professional README.md file') // this will let the user know that the README.md file is being created
+            writeToFile(response); // this will write the user's responses to the README.md file
+        })
+    } 
+    init(); // this will call the function to initialize the app
+    

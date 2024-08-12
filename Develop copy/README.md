@@ -1,9 +1,9 @@
 # Readme-Generator
- undefined
+ ![GitHub license](https://img.shields.io/badge/license-BSD-blue.svg)
 
   
   ## Description
-  Created a readme generator for user input.
+  Created Readme-Generator 
 
 
 
@@ -21,15 +21,15 @@
   [90mnpm i[39m
 
 
-## Usage
-  pull request
+  ## Usage
+  push repo
 
 
-  undefined
+  ##license
   
   
   ## Contributing
-  undefined
+  pull repo
   
   
   ## Test

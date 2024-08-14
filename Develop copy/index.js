@@ -30,7 +30,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please select a license for this project.',
-        choices: ['MIT', 'APACE.20', 'GPL 3.0', 'BSD', 'NONE']
+        choices: ['MIT', 'APACE.20', 'GPL', 'BSD', 'NONE']
     },
     {
 
@@ -38,19 +38,20 @@ const questions = [
         type: 'input',
         name: 'installation',
         message: 'What command should be run to run install dependencies?',
-        default: colors.gray('npm i') // this will print the default command to install dependencies which is npm i
+        default: `npm install` // this will print the default command to install dependencies which is npm i
 
     },
         
     {
         type: 'input',
         name: 'usage',
-        message: "What does user need to know about using repo?"
+        message: "What does a user need to know about using repo?"
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'What does the user need to know about contributing to the repo?'
+        message: 'What does the user need to know about contributing to the repo?',
+        default: `fork and pull request1`
     },
 
     {

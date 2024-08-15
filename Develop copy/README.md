@@ -1,4 +1,4 @@
-# Readme-Generatorr
+# Readme-Generator
  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   
@@ -12,7 +12,7 @@
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Tests](#tests)
+  * [Test](#test)
   * [Questions](#questions)
   
 

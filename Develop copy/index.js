@@ -44,7 +44,8 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: "What does a user need to know about using repo?"
+        message: "In order to prompt questions in your terminal, what needs to added to the package.json?",
+        default: `inquirer`
     },
     {
         type: 'input',

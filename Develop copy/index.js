@@ -1,6 +1,5 @@
 /// TODO: Include packages needed for this application
 import inquirer from 'inquirer'; // this will import the inquirer package
-import colors from 'colors'; // this will import the colors package
 import fs from 'fs'; // this will import the fs package
 import generateMarkdown from './utils/generateMarkdown.js'; // this will import the generateMarkdown file
 

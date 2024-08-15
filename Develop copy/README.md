@@ -13,6 +13,7 @@
   * [License](#license)
   * [Contributing](#contributing)
   * [Test](#test)
+  * [Credits](#credits)
   * [Questions](#questions)
   
 
@@ -23,9 +24,13 @@
 
 
   ## Usage
-  What you need to know about using the repo:
-  It is important create a branch before making any changes to the main branch. This will help you keep track of your changes and make it easier to merge your changes with the main branch.
-  It is important to create a branch before making any changes to the main branch. This will help you keep track of your changes and make it easier to merge your changes with the main branch.
+  It is important to install inquirer in your terminal to add to your package.json file. This will allow you to prompt questions for users. 
+
+  Click on [video](https://drive.google.com/file/d/172P5E9Xwg2SjmcViKJU-rf5RXVioALk9/view) to see a walk through on how the Readme-Generator works from start to finish. 
+  
+
+  ## Credits 
+  Starter code credit to Rutgers boot camp 
 
 
    ## License
@@ -45,9 +50,11 @@
   To run tests, run the following command:
   npm test
   
+
+
   
   ## Questions
-  If you have any questions about this repo, please contact me directly at marqueljamal12@gmail.com. You can find more of my work on github at [marquel12](https://github.com/marquel12/Readme-Generator-) 
+  If you have any questions about this repo, please contact me directly at marquekjamal12@gmail.com. You can find more of my work on github at [marquel12](https://github.com/marquel12/Readme-Generator-) 
   
   
 

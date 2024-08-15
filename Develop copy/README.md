@@ -1,4 +1,4 @@
-# Readme-Generator 
+# Readme-Generatorr
  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   
@@ -25,7 +25,7 @@
   ## Usage
   What you need to know about using the repo:
   It is important create a branch before making any changes to the main branch. This will help you keep track of your changes and make it easier to merge your changes with the main branch.
-  It is important create a branch before making any changes to the main branch. This will help you keep track of your changes and make it easier to merge your changes with the main branch.
+  It is important to create a branch before making any changes to the main branch. This will help you keep track of your changes and make it easier to merge your changes with the main branch.
 
 
    ## License
@@ -47,7 +47,7 @@
   
   
   ## Questions
-  If you have any questions about this repo, please contact me directly at marqueljamal12@gmail.com . You can find more of my work on github at [Marquel12](https://github.com/marquel12/Readme-Generator-) 
+  If you have any questions about this repo, please contact me directly at marqueljamal12@gmail.com. You can find more of my work on github at [Marquel12](https://github.com/marquel12/Readme-Generator-) 
   
   
 

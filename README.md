@@ -1,3 +1,11 @@
+The goal of this project was to create a high quality Readme file. This would essentially allow developers to use the Readme-Generator so they can focus more on building projects. 
+As a new learner in coding this was a challegne for me. But this allowed me to learn more about node.js, markdown, the terminal, and how to use inquirer. 
+I created a new branch for this project to help me get in the habit of working off the main branch. 
+If you're wondering why most files show as .copy, this is because I took the start code given from rutgers bootcamp to build the project.
+I forgot to rename the files, rookie mistake!
+
+Here is a screen shot of the terminal and VSCode: 
+![image](https://github.com/user-attachments/assets/9efd7753-e3a4-4d6f-9c75-729827ce9fe4)
 
 # Readme-Generator 
  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
